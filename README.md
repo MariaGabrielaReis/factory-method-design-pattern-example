@@ -29,7 +29,7 @@ Segundo Bruno, o desenvolvedor pleno se apoia principalmente em 4 pilares:
 
 Onde alguns conceitos a serem dominados dentro de cada um desses pilares são:
 
-### Linguagem TypeScript
+### :red_circle: Linguagem TypeScript
 
 - [ ] Tipos primitivos
 - [ ] Union Types
@@ -45,7 +45,7 @@ Onde alguns conceitos a serem dominados dentro de cada um desses pilares são:
   - [ ] Pick
   - [ ] Omit
 
-### Princípios SOLID
+### :yellow_circle: Princípios SOLID
 
 - [ ] Single Responsability Principle
 - [ ] Open/Closed Principle
@@ -53,7 +53,7 @@ Onde alguns conceitos a serem dominados dentro de cada um desses pilares são:
 - [ ] Interface Segregation Principle
 - [ ] Dependency Inversion Principle
 
-### Design Patterns
+### :large_blue_circle: Design Patterns
 
 - [ ] Criacionais
   - [ ] Factory Method
@@ -68,7 +68,7 @@ Onde alguns conceitos a serem dominados dentro de cada um desses pilares são:
   - [ ] Iterator
   - [ ] Strategy
 
-### Arquitetura de Software
+### :brown_circle: Arquitetura de Software
 
 - [ ] MVC
 - [ ] Clean Architecture
@@ -82,7 +82,7 @@ Onde alguns conceitos a serem dominados dentro de cada um desses pilares são:
 Design Pattern (padrão de projeto) apresenta soluções generalistas para problemas
 recorrentes durante o desenvolvimento de um software, por isso há uma gama deles,
 cada qual atendendo a necessidades específicas observadas em diferentes situações.
-<br>
+<br><br>
 Neste evento o Design Pattern exemplificado na prática foi o **Factory Method**
 (onde os códigos podem ser encontrados no arquivo `index.ts` dentro da pasta
 `src` deste repositório), foi aplicado na seguinte situação:
@@ -200,11 +200,15 @@ function clientCode() {
 
 clientCode();
 ```
+  
+<p align="center">
+  <img alt="Captura de tela do console" title="console" src="./console.png" />
+</p>
 
-### Prós e Contras do Factory Method
+<hr>
 
-| PRÓS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | CONTRAS                                                                                                          |
+| **PRÓS**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | **CONTRAS**                                                                                                          |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
-| Evita acoplamentos firmes entre o criador e seus produtos concretos (tem uma factory para cada pagamento) <br><br> Corrobora com o princípio de responsabilidade única. <br> Pode mover o código de criação do produto pra um único local,facilitando a manutenção (se algo mudar, só impacta na alteração de código em um lugar só) <br><br> Corrobora com o princípio aberto/fechado. <br> Introduzir novos tipos de produtos no programa sem quebrar o código já existente (adicionar/remover pagamentos sem interferir no que já existia) | O código pode se tornar mais complicado por conta da criação de muitas novas subclasses que sustentarão o padrão |
+| **Evita acoplamentos firmes entre o criador e seus produtos concretos** (tem uma factory para cada pagamento) <br><br> **Corrobora com o princípio de responsabilidade única.** <br> Pode mover o código de criação do produto pra um único local,facilitando a manutenção (se algo mudar, só impacta na alteração de código em um lugar só) <br><br> **Corrobora com o princípio aberto/fechado.** <br> Introduzir novos tipos de produtos no programa sem quebrar o código já existente (adicionar/remover pagamentos sem interferir no que já existia) | O código pode se tornar mais complicado por conta da criação de muitas novas subclasses que sustentarão o padrão |
 
 [![image](https://img.shields.io/badge/✨%20Maria%20Gabriela%20Reis,%202021-LinkedIn-009973?style=flat-square)](https://www.linkedin.com/in/mariagabrielareis/)
